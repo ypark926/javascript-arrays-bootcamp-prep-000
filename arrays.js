@@ -16,3 +16,10 @@ function addElementToEndOfArray(arr, element) {
   newArray = [...arr, element];
   return newArray;
 }
+
+function destructivelyAddElementToEndOfArray(arr, element) {
+  arr.push(element);
+  return arr;
+}
+
+function 
